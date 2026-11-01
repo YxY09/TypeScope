@@ -1,0 +1,11 @@
+/target/
+/app/node_modules/
+/app/dist/
+/docs/*.md
+/docs/backup_v3_src/
+**/*.db
+**/*.db-wal
+**/*.db-shm
+*.log
+.DS_Store
+Thumbs.db

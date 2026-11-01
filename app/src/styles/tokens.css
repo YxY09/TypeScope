@@ -1,0 +1,136 @@
+:root,
+:root[data-theme="light"] {
+  color-scheme: light;
+
+  /* Typography */
+  --font-sans: "Inter", "Segoe UI Variable Text", "Segoe UI", "PingFang SC", "Microsoft YaHei UI", sans-serif;
+  --font-mono: "JetBrains Mono", "Cascadia Mono", "Consolas", "Segoe UI Variable Text", "PingFang SC", "Microsoft YaHei UI", sans-serif;
+
+  /* Font Scale */
+  --text-xs: 11px;
+  --text-sm: 12px;
+  --text-base: 13px;
+  --text-md: 14px;
+  --text-lg: 16px;
+  --text-xl: 19px;
+  --text-2xl: 22px;
+
+  /* Line Heights */
+  --lh-tight: 1.2;
+  --lh-snug: 1.35;
+  --lh-normal: 1.5;
+
+  /* Spacing Scale */
+  --sp-1: 4px;
+  --sp-2: 8px;
+  --sp-3: 12px;
+  --sp-4: 16px;
+  --sp-5: 20px;
+  --sp-6: 24px;
+  --sp-8: 32px;
+
+  /* Border Radius (Restrained desktop geometry) */
+  --radius-xs: 3px;
+  --radius-sm: 4px;
+  --radius-md: 6px;
+
+  /* Neutral Surfaces - Light Mode (Monochrome) */
+  --bg-app: #fafafa;
+  --bg-surface: #ffffff;
+  --bg-subtle: #f2f2f2;
+  --bg-muted: #e8e8e8;
+  --bg-hover: rgba(23, 23, 23, 0.045);
+  --bg-active: rgba(23, 23, 23, 0.08);
+
+  /* Text Hierarchy - Light Mode (Monochrome) */
+  --text-primary: #1f1f1f;
+  --text-secondary: #737373;
+  --text-muted: #a3a3a3;
+  --text-faint: #c4c4c4;
+
+  /* Borders & Hairlines - Light Mode (Monochrome) */
+  --border-subtle: #e5e5e5;
+  --border-default: #dcdcdc;
+  --border-strong: #bdbdbd;
+
+  /* Primary Monochrome Accent - Light Mode */
+  --accent: #171717;
+  --accent-fg: #ffffff;
+  --accent-hover: #303030;
+  --accent-soft: rgba(23, 23, 23, 0.06);
+  --accent-muted: rgba(23, 23, 23, 0.12);
+  --accent-border: #171717;
+
+  /* Monochrome Status Tokens - Light Mode */
+  --status-ok: #1f1f1f;
+  --status-ok-bg: #efefef;
+  --status-warn: #525252;
+  --status-warn-bg: #ededed;
+  --status-danger: #171717;
+  --status-danger-bg: #e8e8e8;
+
+  /* Data Category Palette - 4-Step Distinct Grayscale (Light Mode) */
+  --cat-han: #171717;
+  --cat-latin: #595959;
+  --cat-digit: #8f8f8f;
+  --cat-punct: #c2c2c2;
+
+  /* Heatmap 5-Step Grayscale Ramp - Light Mode */
+  --heat-0: #f3f3f3;
+  --heat-1: #dfdfdf;
+  --heat-2: #b5b5b5;
+  --heat-3: #525252;
+  --heat-4: #171717;
+}
+
+:root[data-theme="dark"] {
+  color-scheme: dark;
+
+  /* Neutral Surfaces - Dark Mode (Monochrome) */
+  --bg-app: #141414;
+  --bg-surface: #1c1c1c;
+  --bg-subtle: #242424;
+  --bg-muted: #2e2e2e;
+  --bg-hover: rgba(245, 245, 245, 0.05);
+  --bg-active: rgba(245, 245, 245, 0.1);
+
+  /* Text Hierarchy - Dark Mode (Monochrome) */
+  --text-primary: #f5f5f5;
+  --text-secondary: #a3a3a3;
+  --text-muted: #737373;
+  --text-faint: #4d4d4d;
+
+  /* Borders & Hairlines - Dark Mode (Monochrome) */
+  --border-subtle: #303030;
+  --border-default: #3a3a3a;
+  --border-strong: #525252;
+
+  /* Primary Monochrome Accent - Dark Mode */
+  --accent: #f5f5f5;
+  --accent-fg: #141414;
+  --accent-hover: #dedede;
+  --accent-soft: rgba(245, 245, 245, 0.09);
+  --accent-muted: rgba(245, 245, 245, 0.16);
+  --accent-border: #f5f5f5;
+
+  /* Monochrome Status Tokens - Dark Mode */
+  --status-ok: #f5f5f5;
+  --status-ok-bg: #292929;
+  --status-warn: #a3a3a3;
+  --status-warn-bg: #242424;
+  --status-danger: #f5f5f5;
+  --status-danger-bg: #2e2e2e;
+
+  /* Data Category Palette - 4-Step Distinct Grayscale (Dark Mode) */
+  --cat-han: #f5f5f5;
+  --cat-latin: #a6a6a6;
+  --cat-digit: #6e6e6e;
+  --cat-punct: #424242;
+
+  /* Heatmap 5-Step Grayscale Ramp - Dark Mode */
+  --heat-0: #222222;
+  --heat-1: #363636;
+  --heat-2: #5c5c5c;
+  --heat-3: #a6a6a6;
+  --heat-4: #f5f5f5;
+}

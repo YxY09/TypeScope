@@ -1,0 +1,8 @@
+[package]
+name = "typescope-proto"
+version = "0.1.0"
+edition = "2021"
+description = "TypeScope 的跨进程提交环和文本分类。不保存按键序列。"
+license = "MIT"
+
+[dependencies]

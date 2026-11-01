@@ -1,0 +1,19 @@
+[package]
+name = "typescope-rime"
+version = "0.1.0"
+edition = "2021"
+description = "给小狼毫 Lua 调用的无阻塞提交入口"
+license = "MIT"
+
+[lib]
+crate-type = ["cdylib"]
+name = "typescope_rime"
+
+[dependencies]
+typescope-proto = { path = "../typescope-proto" }
+windows-sys = { version = "0.59", features = [
+    "Win32_Foundation",
+    "Win32_System_LibraryLoader",
+    "Win32_System_Memory",
+    "Win32_System_Threading",
+] }
